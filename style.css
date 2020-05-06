@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;    
+    
+}
+/* font-family: 'Roboto Condensed', sans-serif; (titulos)
+font-family: 'Roboto Mono', monospace; (parrafos)*/
+
+body {
+    background-image: url("./Fondos.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding: 20px 0px;;
+    box-shadow: 4px 4px 11px;
+    width: 800px;
+    margin: 10px 0px;
+    position: relative;
+    left: 240px;
+    
+}
+
+.titulo {
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.parrafo {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.articulo{
+    margin: 15px auto;
+    width: 1200px;
+    padding:  5px 20px;
+    border-radius: 10px;
+    background-color: rgba(148, 228, 243, 0.3)
+}
+
+.enlace {
+    text-align: center;    
+}
+
+.articulo a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: brown
+}
+
+ul {
+    list-style: none;
+}
+
+.discografia li {
+    list-style: lower-greek;    
+}
+
+.discografia {
+    padding: 0px 15px;
+}
+
+img {
+    border: 5px solid rgb(49, 185, 167);
+}
+
+.banda {
+    display: flex;   
+    
+}
+
+ul.banda li {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;    
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu ul {
+    width: 1200px;
+      
+}
+
+.encabezado {
+    height: 140px;
+}
+
+main {
+    position: relative;
+    top: 220px;
+}
+
+.queen {
+    position: fixed;
+    width: 100%;
+    left: 70px;
+    z-index: 1;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.menu ul a {
+    display: block;
+    padding: 15px 20px;    
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(148, 228, 243, 0.3);
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.volver {
+    position: relative;
+    left: 1150px;
+    top: 360px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 1;
+
+}
